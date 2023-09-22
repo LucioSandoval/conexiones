@@ -1,0 +1,186 @@
+body{
+    margin:0;
+}
+.header{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    height: 60px;  
+}
+.ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+}
+
+.ul > li{
+    margin-right: 60px;
+    
+    
+}
+li > a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.ul > li:first-child {
+    margin-top: -5px;
+    font-weight: bold; 
+    font-size:x-large;
+}
+.contenedor-btn{
+    text-align: center;
+    padding: 15px;
+}
+.btn{
+    color: aliceblue;
+    font-weight: bold;
+    background-color: rgb(92, 160, 160);
+    padding: 2px 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contenedor1{
+    height: 600px;
+}
+
+.cabeza{
+    background-color: rgb(92, 160, 160);
+    height: 60px;
+    width: 400px;
+    position: relative;
+}
+.perfil{
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    border-radius: 50%;
+    border: solid 3px rgb(221, 208, 208);
+}
+.cuerpo{
+    
+    padding: 15px;
+    border: solid 3px rgb(221, 208, 208);
+    border-top: 3px;
+}
+h2{
+    margin-bottom: 5px;
+}
+.logo{
+    width: 8px;
+}
+.ciudad{
+    margin-bottom: 5px;
+}
+.edit{
+    margin-top: 10px;
+}
+.logo-edit{
+    width: 12px;
+    
+}
+.edit >a{
+    color: rgb(108, 108, 170);
+}
+.cabeza2{
+    margin-top: 20px;
+    background-color: rgb(53, 52, 52);
+    color: aliceblue;
+    padding: 8px 25px;
+    font-weight: bold;
+}
+.cuerpo2{
+    border: solid 3px rgb(221, 208, 208);
+    border-top: 3px; 
+    padding: 15px;
+    font-weight: bold;
+}
+.bootcamp{
+    font-size: large;
+}
+.fecha{
+    color: rgb(128, 122, 122);
+    margin-top:8px;
+    margin-bottom: 8px;
+}
+.contenedor2{
+    margin-left: 20px;
+}
+.contenedor2-cabeza1{
+    background-color: rgb(53, 52, 52);
+    color: aliceblue;
+}
+.contenedor2-cuerpo1{
+    border: solid 3px rgb(221, 208, 208);
+    border-top: 3px; 
+    padding: 10px 7px;
+}
+
+.contenedor2-cabeza1{
+    display: flex;
+    flex-direction: row; 
+    gap: 5px;
+    padding: 15px 10px;
+    font-weight: bold;
+    
+}
+.numero2{
+    background-color: rgba(240, 248, 255, 0.692);
+    color: rgb(78, 69, 69);
+    border-radius: 50%;
+    padding: 0px 6px;
+}
+
+.contenedor2-users{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.col-izquierdo{
+    display: flex;
+    flex-direction: row;
+}
+.avartar{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-top: -4px;
+}
+.icono{
+    width: 20px;
+}
+.nombre{
+    margin-left: 10px;
+    
+}
+.contenedor2-card2{
+    margin-bottom: 20px;
+}
+.numero500{
+    background-color: rgba(240, 248, 255, 0.692);
+    color: rgb(78, 69, 69);
+    border-radius: 50%;
+    padding: 0px 4px;
+}
+.col-izquierdo1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.view{
+    border: solid 3px rgb(221, 208, 208);
+    border-top: 3px;
+    padding: 8px;
+}
+.view-more{
+    color: rgb(110, 110, 240);
+}

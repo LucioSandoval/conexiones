@@ -1,11 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coneciones</title>
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Conexiones</title>
 </head>
+
 <body>
-    
+    <p>Clicking either button will removew the user from the request list</p>
+    <header class="header">
+        <ul class="ul">
+            <li><a href="">Profile</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">My Profile</a></li>
+            <li><a href="">Find Connections</a></li>
+        </ul>
+        <span class="contenedor-btn"><button type="button" class="btn">Sing Out</button></span>
+    </header>
+    <section class="container">
+        <div class="contenedor1">
+            <div class="card1">
+                <div class="cabeza">
+                    <img class="perfil" src="./icon/user-circle.png" alt="">
+                </div>
+                <div class="cuerpo">
+                    <h2 class="name">Jane Doe</h2>
+                    <div class="ciudad">
+                        <img class="logo" src="./icon/map-marker.png" alt="Imagen de ubicación"> Seatle
+                    </div>
+                    <div>Developer | Engineer | Problem Solver</div>
+                    <div>Master of shadows and the Internet!</div>
+                    <div class="edit">
+                        <img class="logo-edit" src="./icon/gear.png" alt="Imagen de edición"> <a href="" onclick="cambiarNombre(event)">edit
+                            profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="cabeza2">
+                    <div>Education</div>
+                </div>
+                <div class="cuerpo2">
+                    <div class="bootcamp">Coding Dojo - Full stack Bootcamp</div>
+                    <div class="fecha">Dec 2019 - mar 2020</div>
+                    <div class="stack">Triple black belt it Python, MERN, and C#...</div>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor2">
+            <div class="contenedor2-card2">
+                <div class="contenedor2-cabeza1">
+                    <div class="numero2">2</div>
+                    <div>Connection Requests</div>
+                </div>
+                <div class="contenedor2-cuerpo1">
+                    <div class="contenedor2-users">
+                        <div class="col-izquierdo">
+                            <img class="avartar" src="./img/todd-s.jpg" alt="Imagen de perfil">
+                            <div class="nombre">Todd E</div>
+                        </div>
+                        <div class="col-derecho">
+                            <img class="icono" onclick="removeUsuario(this, 'aceptar')" src="./icon/accept-circle.png" alt="icono de aceptar">
+                            <img class="icono" onclick="removeUsuario(this, 'rechazar')" src="./icon/close-circle.png" alt="Icono de eliminar">
+                        </div>
+                    </div>
+                    <div class="contenedor2-users">
+
+                        <div class="col-izquierdo">
+                            <img class="avartar" src="./img/phil-s.jpg" alt="Imagen de perfil">
+                            <div class="nombre">Phil K</div>
+                        </div>
+
+                        <div class="col-derecho">
+                            <img class="icono" onclick="removeUsuario(this, 'aceptar')" src="./icon/accept-circle.png" alt="icono de aceptar">
+                            <img class="icono" onclick="removeUsuario(this, 'rechazar')" src="./icon/close-circle.png" alt="Icono de eliminar">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="contenedor2-card1">
+                <div class="contenedor2-cabeza1">
+                    <div class="numero500">500</div>
+                    <div>Your Congregations</div>
+                </div>
+                <div class="contenedor2-cuerpo1">
+                    <div class="col-izquierdo1">
+                        <img class="avartar" src="./img/adrien-s.jpg" alt="Imagen de perfil">
+                        <div class="nombre">Adrien D</div>
+                    </div>
+                    <div class="col-izquierdo1">
+                        <img class="avartar" src="./img/anne-s.jpg" alt="Imagen de perfil">
+                        <div class="nombre">Anne J</div>
+                    </div>
+                    <div class="col-izquierdo1">
+                        <img class="avartar" src="./img/alayne-s.jpg" alt="Imagen de perfil">
+                        <div class="nombre">Alayne T</div>
+                    </div>
+                    <div class="col-izquierdo1">
+                        <img class="avartar" src="./img/arry-s.jpg" alt="Imagen de perfil">
+                        <div class="nombre">Arry Y</div>
+                    </div>
+                    <div class="col-izquierdo1">
+                        <img class="avartar" src="./img/adrien-s.jpg" alt="Imagen de perfil">
+                        <div class="nombre">Adrien D</div>
+                    </div>
+
+                </div>
+                <div class="view">
+                    <a class="view-more" href="">View More</a>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <script src="./index.js"></script>
 </body>
+
 </html>
